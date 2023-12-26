@@ -2,10 +2,37 @@
 layout: default
 ---
 
-<div class="post">
 
-  <article class="post-content fullwidth">
-    {{ content }}
-  </article>
-
+<div class="content">
+  <div class="post">
+    <article class="post-content fullwidth">
+      <img src="https://via.placeholder.com/728x90" alt="Ad" style="max-width: 100%;">
+      {{ content }}
+    </article>
+  </div>
 </div>
+
+<style>
+
+  .sidebar {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  @media (max-width: 768px) {
+    body {
+      flex-direction: column;
+    }
+
+    .sidebar {
+      width: 100%;
+    }
+  }
+</style>

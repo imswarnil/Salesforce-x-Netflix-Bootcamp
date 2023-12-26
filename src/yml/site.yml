@@ -1,16 +1,17 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: Salesforce X Netflix
+title: Learn Salesforce | By Building Application for Netflix
+description: Salesforce X Netflix Is Bootcamp where i will be building salesforce app for netflix.
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - salesforce
+  - bootcamp
+  - Learn Salesforce from scratch
+  - salesforce projects
+  - Salesforce X Netflix
 show_hero: true
 menu:
   - title: Home
+    url: /
+  - title: Table Of Content
     url: /
   - title: About
     url: /about
@@ -18,7 +19,7 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@test.com
+email: imswarnil@gmail.com
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
